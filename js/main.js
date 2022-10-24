@@ -24,8 +24,8 @@ const renderPokemon = async (pokemon) => {
 
     pokemonName.textContent = 'Loading . . .';
     pokemonNumber.textContent = '';
-    pokemonImage.src = 'https://res.cloudinary.com/dhfmm9rmk/image/upload/v1666180633/loading.svg';
-    pokemonAnimated.src = 'https://res.cloudinary.com/dhfmm9rmk/image/upload/v1666180633/loading.svg';
+    pokemonImage.src = 'https://res.cloudinary.com/dhfmm9rmk/image/upload/v1666575610/loading.svg';
+    pokemonAnimated.src = 'https://res.cloudinary.com/dhfmm9rmk/image/upload/v1666575610/loading.svg';
 
     const data = await fetchPokemon(pokemon)
     
